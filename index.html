@@ -37,5 +37,17 @@
     <p>&copy; 2025 Atharva Dev. All rights reserved.</p>
   </footer>
 
+  <!-- ✅ JavaScript for scroll-based navbar background -->
+  <script>
+    window.addEventListener("scroll", function () {
+      const nav = document.querySelector(".navbar");
+      if (window.scrollY > 0) {
+        nav.style.backgroundColor = "#222";
+      } else {
+        nav.style.backgroundColor = "#333";
+      }
+    });
+  </script>
+
 </body>
 </html>
